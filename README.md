@@ -48,7 +48,7 @@ A collection of TouchDesigner components and effects by Gnomalab, prepared for u
 
 ## License
 
-*[License to be confirmed.]*
+MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
