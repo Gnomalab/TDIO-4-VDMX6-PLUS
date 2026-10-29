@@ -21,15 +21,24 @@ A collection of TouchDesigner components and effects by Gnomalab, prepared for u
 
 ## Requirements
 
-- TouchDesigner: *[version to be confirmed]*
-- VDMX6 Plus: *[version to be confirmed]*
+- **VDMX6 Plus** (macOS).
+- **TouchDesigner** with an Education, Commercial or Pro license installed on the same computer. Non-commercial licenses will not work.
+- *[TouchDesigner version to be confirmed.]*
 
 ---
 
 ## Installation
 
 1. Download or clone this repository.
-2. *[Install steps for TDIO / VDMX6 Plus to be added.]*
+2. Unzip `Gn_VORONI_FLUIDS_V1.2.zip` if you want to use the Voronoi fluid effect.
+3. Open the VDMX assets folder. In VDMX, use **Help → Open Assets Folder in Finder**, or go to `~/Library/Application Support/VDMX/`.
+4. Create a folder called `TouchDesignerFX` inside the assets folder if it does not exist yet.
+5. Copy the `.tox` files you want into `TouchDesignerFX`.
+6. The effects appear in VDMX immediately. You can preview them in the Workspace Inspector's **Assets** tab, or add them to a layer.
+
+**Notes**
+- After editing a `.tox`, remove and add the asset again, or restart VDMX.
+- Each effect must follow the Image Filter protocol: it needs a top-level `inputImage` (inTOP) and `outputImage` (outTOP).
 
 ---
 
